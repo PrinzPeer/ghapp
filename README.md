@@ -16,19 +16,19 @@ COMMANDS:
 
 ## 🚀 Install
 
-The packaged binaries of `ghapp` can be found on the [releases](https://github.com/jhagestedt/ghapp/releases) of this repository.
+The packaged binaries of `ghapp` can be found on the [releases](https://github.com/PrinzPeer/ghapp/releases) of this repository.
 
 #### 🐧 Linux
 
 ```bash
-curl -L "https://github.com/jhagestedt/ghapp/releases/latest/download/ghapp_linux_amd64" \
+curl -L "https://github.com/PrinzPeer/ghapp/releases/latest/download/ghapp_linux_amd64" \
 -o ./ghapp && chmod +x ./ghapp
 ```
 
 #### 🍏 MacOS
 
 ```bash
-curl -L "https://github.com/jhagestedt/ghapp/releases/latest/download/ghapp_darwin_amd64" \
+curl -L "https://github.com/PrinzPeer/ghapp/releases/latest/download/ghapp_darwin_amd64" \
 -o ./ghapp && chmod +x ./ghapp
 ```
 
@@ -54,7 +54,7 @@ A usage on GitHub Actions could look like the following.
 ```yaml
 - id: setup-ghapp
   run: |
-    curl -L "https://github.com/jhagestedt/ghapp/releases/latest/download/ghapp_linux_amd64" -o ./usr/local/bin/ghapp
+    curl -L "https://github.com/PrinzPeer/ghapp/releases/latest/download/ghapp_linux_amd64" -o ./usr/local/bin/ghapp
     chmod +x ./usr/local/bin/ghapp
 - id: ghapp-install-token
   run: |
@@ -68,7 +68,7 @@ A usage on GitHub Actions could look like the following.
 
 ## 🐳 Docker
 
-There is also a docker container published at [Dockerhub](https://hub.docker.com/repository/docker/jhagestedt/ghapp) that contains the binary that can be used with `docker run` to not install it locally.
+There is also a docker container published at [Dockerhub](https://hub.docker.com/repository/docker/PrinzPeer/ghapp) that contains the binary that can be used with `docker run` to not install it locally.
 
 ```bash
 export GHAPP_PRIVATE_KEY=$(cat .ghapp-private-key.pem)
