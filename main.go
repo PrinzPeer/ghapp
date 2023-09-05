@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/jhagestedt/ghapp/v2/cmd"
+	"github.com/PrinzPeer/ghapp/v2/cmd"
 	"github.com/urfave/cli/v2"
 	"os"
 	"sort"
