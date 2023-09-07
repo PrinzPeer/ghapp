@@ -1,4 +1,4 @@
-module github.com/jhagestedt/ghapp/v2
+module github.com/PrinzPeer/ghapp/v2
 
 go 1.19
 
