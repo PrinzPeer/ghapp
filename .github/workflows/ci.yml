@@ -40,7 +40,7 @@ jobs:
     needs: [ version ]
     env:
       DOCKER_REGISTRY_HOST: docker.io
-      DOCKER_REGISTRY_PATH: jhagestedt/ghapp
+      DOCKER_REGISTRY_PATH: PrinzPeer/ghapp
       DOCKER_REGISTRY_USERNAME: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
       DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
       VERSION: ${{ needs.version.outputs.version }}
